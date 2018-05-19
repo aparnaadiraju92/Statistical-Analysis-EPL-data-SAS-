@@ -1,0 +1,151 @@
+/* ---------------------- Task 1 ------------------------ */
+
+/*We perform Multi nominal Logistic Regression*/
+
+ods noproctitle;
+ods graphics / imagemap=on;
+
+proc logistic data=APLIB.PROJECTMATCHLEVEL;
+	class FTR (ref="H") HTR / param=glm;
+	model FTR=HTR HS AS HST AST HC AC HF AF HY AY HR AR / link=glogit rsquare;
+run;
+
+/* ---------------------- Task 2 ------------------------ */
+
+/*Firstly, we summarized the data of referees into a new table*/
+
+PROC SQL;
+  
+	CREATE TABLE APLIB.AREFEREEMATCH AS 
+	
+	SELECT REFEREE, COUNT(REFEREE) AS NUMBEROFMATCHES, 
+               SUM(ABP) AS TOTAWAYBP, SUM(HBP) AS TOTHOMEBP, (SUM(ABP) + SUM(HBP)) AS TOTBP,
+               SUM(AF) AS TOTALAWAYFOULS, SUM(HF) AS TOTALHOMEFOULS, (SUM(HF)+SUM(AF)) AS TOTALFOULS,
+               ROUND(AVG(ABP)) AS AVGAWAYBP, ROUND(AVG(HBP)) AS AVGHOMEBP, (ROUND(AVG(HBP)) + ROUND(AVG(ABP))) AS TOTAVGBP, 
+	       ROUND(AVG(HF)) AS AVGHOMEFOULS, ROUND(AVG(AF)) AS AVGAWAYFOULS, (ROUND(AVG(HF)) + ROUND(AVG(AF))) AS AVGTOTFOULS
+	
+	FROM APLIB.PROJECTMATCHLEVEL
+	
+	WHERE REFEREE IS NOT NULL
+	
+	GROUP BY REFEREE;
+
+QUIT;
+
+/*We then performed K-means clustering for Referees with Number of Matches more than 10*/
+
+ods noproctitle;
+
+proc stdize data=APLIB.AREFEREEMATCH out=Work._std_ method=range;
+var AVGHOMEFOULS AVGAWAYFOULS AVGAWAYBP AVGHOMEBP;
+run;
+
+proc fastclus data=Work._std_ maxclusters=2 maxiter=1 drift list distance;
+where NumberOfMatches>10;
+var AVGHOMEFOULS AVGAWAYFOULS AVGAWAYBP AVGHOMEBP;
+id Referee;
+run;
+
+proc delete data=Work._std_;
+run;
+
+
+/* ---------------------- Task 3 ------------------------ */
+
+/*We perform Multi nominal Logistic Regression*/
+
+ods noproctitle;
+ods graphics / imagemap=on;
+
+proc logistic data=APLIB.PROJECTMATCHLEVEL;
+	class FTR (ref="H") HTR Referee_Cluster / param=glm;
+	model FTR=HTR HS AS HST AST HC AC HF AF HY AY HR AR / link=glogit rsquare;
+run;
+
+
+/* ---------------------- Task 4 ------------------------ */
+
+/*We perform Table Analysis*/
+
+ods noproctitle;
+
+proc freq data=APLIB.PROJECTMATCHLEVEL;
+tables  (FTR) *(Typeofmatch) / chisq expected nopercent norow nocol nocum 
+plots(only)=(freqplot mosaicplot);
+run;
+
+
+/* ---------------------- Task 5 ------------------------ */
+
+/*We perform Table Analysis*/
+
+ods noproctitle;
+
+proc freq data=APLIB.PROJECTMATCHLEVEL;
+tables  (B365RESULT) *(FTR) / chisq expected nopercent norow nocol nocum 
+plots(only)=(freqplot mosaicplot);
+run;
+
+/*We perform Multilinear regression to observe the interaction effect*/
+
+ods noproctitle;
+ods graphics / imagemap=on;
+
+proc glmselect data=APLIB.PROJECTMATCHLEVEL 
+outdesign(addinputvars)=Work.reg_design;
+class B365RESULT / param=glm;
+model FTGD=HTGD B365RESULT HTGD*B365RESULT / showpvalues selection=none;
+run;
+
+proc reg data=Work.reg_design alpha=0.05 plots(only)=(diagnostics residuals 
+observedbypredicted);
+where B365RESULT is not missing;
+ods select DiagnosticsPanel ResidualPlot ObservedByPredicted;
+model FTGD=&_GLSMOD /;
+
+
+/* ---------------------- Task 6 ------------------------ */
+
+/* We perform Correlation Analysis */
+
+/*spending correlation position - spearman correlation*/
+
+ods noproctitle;
+ods graphics / imagemap=on;
+
+proc sort data=APLIB.PROJECTLEAGUELEVEL out=Work.SortTempTableSorted;
+by Year;
+run;
+
+proc corr data=Work.SortTempTableSorted pearson spearman nosimple plots=matrix;
+var Position;
+with Spendings__Wage_Bill_in_million;
+by Year;
+run;
+
+proc delete data=Work.SortTempTableSorted;
+run;
+
+
+/* We use Bar Charts for Visualization */
+
+proc sort data=APLIB.PROJECTLEAGUELEVEL out=_BarChartTaskData;
+by Year;
+run;
+
+ods graphics / reset imagemap;
+
+proc sgplot data=_BarChartTaskData;
+by Year;
+
+title "Position vs Spending (Season Wise)";
+
+vbar Position / response=Spendings__Wage_Bill_in_million group=Team 
+groupdisplay=Cluster stat=Mean name='Bar';
+
+yaxis grid;
+run;
+
+ods graphics / reset;
+title;
+
