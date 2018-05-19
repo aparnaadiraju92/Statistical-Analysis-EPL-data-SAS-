@@ -14,48 +14,83 @@ A football match is generally 90 minutes long divided into two halves played bet
 ### Some calculated fields:
 
 •	Booking Points = Number of yellow cards * 10 + Number of Red cards * 25
+
 •	Defense Rate = (1 - (Away Team Shots on Target / Away Team Shots)) * 100
+
 •	Keeper Save Accuracy = (1 - (Away Team Goals / Away Team Shots on Target)) * 100
+
 •	Shot Accuracy = (Home Team Shots on Target / Home Team Shots) * 100
+
 •	Goal Conversion = (Home Team Goals / Home Team Shots on Target) * 100
 
 
 ### Data Set 1: Match Level Data 
 
 *(https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/ProjectMatchleveldata_R.xlsx)
+
 •	Year and Date
+
 •	Home Team and Away Team
+
 •	Type of match (0 = Derby team Home v/s Derby Team Away, 1 = Derby team as Home v/s Non Derby team as Away, 2 = Non Derby team as Home v/s Derby team as Away, 3 = Non Derby team v/s Non Derby Team )	
+
 •	FTHG = Full time Home Goals
+
 •	FTAG = Full time Away Goals
+
 •	FTR = Full time result (H = Home win, A = Away win, D = Draw) = categorical with three categories.
+
 •	HTHG = Half time Home Goals
+
 •	HTAG = Half time Away Goals
+
 •	HTR = Full time result (H = Home lead, A = Away lead, D = Draw) = categorical: three categories.
-•	Referee
+
+•	Referee and Referee cluster (
+
 •	HS / AS = Home/Away shots
+
 •	HST / AST = Home/Away shots on Target
+
 •	HF / AF = Home/Away Fouls
+
 •	HC / AC = Home/Away Corners
+
 •	HY/AY = Home/Away Yellow cards
+
 •	HR/AR = Home/Away Red cards
+
 •	HBP/ABP = Home/Away Booking Points = (number of Yellow cards * 10) + (number of Red cards * 25)
+
 •	FTGD/HTGD = Full time/Half time Goal Difference
+
 •	B365A/ B365H/ B365D = Betting odds for Away, Home, Draw – minimum the betting odds, more chance of winning. 
+
  
 
 ### Data Set 2: League Level Data 
 
 *(https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/ProjectLeagueleveldata.xlsx)
+
 •	W = Wins
+
 •	D = Draw
+
 •	L = Lost
+
 •	GD = Goal difference
+
 •	Pts = Points
+
 •	FI = Fouls
+
 •	Y = Yellow Cards
+
 •	R = Red Cards
+
 •	Sh = Shots 
+
 •	ShT = Shots on Target
+
 
 
