@@ -53,10 +53,10 @@ Considering the variables for which p is less than alpha,
 
 The significant variables for log odds of dependent variable Y = A relative to Y = H are: 
  
-                                                                                           HTR, HST, AST, HC, AC, HR, AR
+                                                                                     HTR, HST, AST, HC, AC, HR, AR
 
 The significant variables for log odds of dependent variable Y = D relative to Y = H are: 
  
-                                                                                           HTR, HST, AST, HC, AC, AR
+                                                                                     HTR, HST, AST, HC, AC, AR
 
 ![alt text](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Output%20Images/Task1-Img5.png)
