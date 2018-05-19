@@ -54,11 +54,15 @@ Our Analysis include several interesting tasks like:
 
 These analyses will help everyone to have a deeper insight on match level and league level statistics.
 
-## Conclusion:
+## SAS Codes ##
+The codes are available in the EPL codes file (https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/EPL%20codes.sas7bdat)
+
+## Analysis - Interpretation - Conclusion:
 
 From the analysis performed on the questions we set up at the start of the project, following are the conclusions drawn from the analysis we have performed:
 
 •	Significant variables in predicting final match result: HTR, HST, AST, HC, AC, HR, AR
+                       (https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Task%201%20Interpretation.md)
 
 •	Referees clustered to Lenient referee and Harsh referee
 
@@ -72,5 +76,4 @@ From the analysis performed on the questions we set up at the start of the proje
 
 •	Average correlation between Position and Spending is -0.69
 
-The Analysis Interpretations with relevant screenshots are available Final Report file 
-(https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Final%20Report)
+
