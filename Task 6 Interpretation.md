@@ -26,7 +26,7 @@ The correlation is – 0.70 which is although strong, but not strong enough as w
 
 The answer to this question is the bar graphs from SAS. From the bar graph, we observe that: The team who are with less spending end up with better position (or) team who are spending more not playing up to the standard. 
 
-![alt text](https://github.com/mullapudirajaprashanth/Statistical-Analysis-EPL-data/blob/master/Output%20Images/Task6-Img2.png)
+![alt text](https://github.com/mullapudirajaprashanth/Statistical-Analysis-EPL-data/blob/master/Output%20Images/Task6-Img2-2.png)
 
 This concludes that top 4 teams are dependent on the spending but are dependent on other factors i.e., their attack and defense. 
 
