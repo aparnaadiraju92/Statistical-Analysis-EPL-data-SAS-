@@ -1,6 +1,6 @@
 # Interpretation and Analysis
 
-## Task 3: Does the type of Referee play a role in predicting the Final match result?     
+## Task 3: Does the type of Referee play a role in predicting the Final match result ?     
 
 **Description**: With the significant factors we got from Task 1, we added the Type of Referee variable 
 (cluster 1 or 2 from previous Task 2) to see if it is a significant factor in predicting the match result.
