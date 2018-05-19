@@ -20,12 +20,20 @@ The main reason for choosing this data set is, the Premier League is the most-wa
 
 The Dataset used for the performing the analysis is a comprehensive data set which contains the details of each match EPL (Match level) has hosted for the years between 2013-2017. The data for each year (2013-2014, 2014-2015, 2015-2016, 2016-2017) is downloaded from the data source mentioned below and downloaded files are merged to form a single file for better analysis. Also, we are using EPL dataset at Season level for the same years which is giving us the Table standings of Teams and summary for each team for that year with their spending. 
 
-Initial source of Data source - http://www.football-data.co.uk/englandm.php and http://www.footstats.co.uk/index.cfm?task=league_full
+Initial source of Data - http://www.football-data.co.uk/englandm.php and http://www.footstats.co.uk/index.cfm?task=league_full
 
-The initial datasets are available : https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/tree/master/Initial%20Datasets
+The raw datasets are available : https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/tree/master/Initial%20Datasets
 
 #### Data Exploration
 Apart from cleaning and normalizing the data we have performed feature engineering at several levels of data to make sure our analysis provides a valuable insight. (example feature: ‘Booking Points’ which is actually derived from valuating the  yellow, red cards and other fouls which in turn play a vital role in match result. This feature helps SAS to identify the significance and severity of an offence).
+
+The clean datasets used for analysis are readily provided in this repository.
+1. Match Level data for 4 seasons:
+   *https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/ProjectMatchleveldata_R.xlsx
+   
+2. League Level data for 4 seasons:
+   *https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/ProjectLeagueleveldata.xlsx
+
 
 ## Analysis tasks:
 
