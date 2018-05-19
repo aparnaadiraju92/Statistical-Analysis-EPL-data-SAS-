@@ -12,7 +12,7 @@ i.	Actual full-time results and B365 results are dependent.
 
 ii.	Observe the moderation effect of B365results on the relationship between Full-Time Goal Difference and Half-Time Goal Difference. 
 
-**Test i: Actual full-time results and B65 results are dependent**
+**Test 1: Actual full-time results and B65 results are dependent**
 
 **Null Hypothesis**: Variables are independent.  
 
@@ -51,7 +51,7 @@ From the Table analysis graph, we can see that:
 
 ![alt text](https://github.com/mullapudirajaprashanth/Statistical-Analysis-EPL-data/blob/master/Output%20Images/Task5-Img3.png)
 
-**Test ii: Observe the moderation effect of B365results on relationship b/w Full-Time Goal Difference and Half-Time Goal Difference.**
+**Test 2: Observe the moderation effect of B365results on relationship b/w Full-Time Goal Difference and Half-Time Goal Difference.**
 
 **Null Hypothesis**: There is no interaction effect.  
 
