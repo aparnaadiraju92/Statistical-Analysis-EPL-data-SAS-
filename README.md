@@ -42,7 +42,7 @@ The analyses will help everyone to have a deeper insight on match level and leag
 Identify the factors which will predict the Final match result. [Interpretation](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Task%201%20Interpretation.md)
 
 #### 2. ####
-Clustering the referees into Harsh referee and Lenient referee based on the Fouls committed by the teams and Booking Points given by the referee in the matches over the seasons. 
+Clustering the referees into Harsh referee and Lenient referee based on the Fouls committed by the teams and Booking Points given by the referee in the matches over the seasons. [Interpretation]
 
 #### 3. ####
 Does the type of Referee (clustered in the above task) play a role in predicting the Final match result? 
