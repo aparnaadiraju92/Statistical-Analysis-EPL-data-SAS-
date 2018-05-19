@@ -1,6 +1,6 @@
 # Interpretation and Analysis
 
-## Task 2: Clustering the referees into Harsh referee and Lenient referee   
+## Task 2: Clustering the referees into 2 - Harsh referee and Lenient referee   
 
 **Description**: In a football match, if any player performs an action which he is not supposed to do as per the game rules, 
 a referee will give the player a foul (first warning), a yellow card (final warning) and red card (serious offense, action taken) 
