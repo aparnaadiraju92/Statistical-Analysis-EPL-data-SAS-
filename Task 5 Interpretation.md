@@ -1,6 +1,6 @@
 # Interpretation and Analysis
 
-## Task 3: How betting odds are impacting a match    
+## Task 5: How betting odds are impacting a match    
 
 **Description**: In Europe, betting is considered legal. Betting odds are established, and bets are taken by companies like Betting365 (B365 in our data). B365 odds are basically Home team winning odds (B365H), Away team winning odds (B365A), match draw odds(B365D). (B365D), are always somewhere b/w (B365H), (B365A). The minimum off the odds is the result of B365. Suppose for example:
 
@@ -51,7 +51,7 @@ From the Table analysis graph, we can see that:
 
 ![alt text](https://github.com/mullapudirajaprashanth/Statistical-Analysis-EPL-data/blob/master/Output%20Images/Task5-Img3.png)
 
-**Test ii:Observe the moderation effect of B365results on relationship b/w Full-Time Goal Difference and Half-Time Goal Difference.**
+**Test ii: Observe the moderation effect of B365results on relationship b/w Full-Time Goal Difference and Half-Time Goal Difference.**
 
 **Null Hypothesis**: There is no interaction effect.  
 
