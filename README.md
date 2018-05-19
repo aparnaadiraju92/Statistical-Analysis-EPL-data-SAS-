@@ -34,6 +34,7 @@ The clean datasets used for analysis are readily provided in this repository.
 2. League Level data for 4 seasons:
    *https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/ProjectLeagueleveldata.xlsx
 
+The Key to variable names is available in the Data Key file (https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Data%20Key)
 
 ## Analysis tasks:
 
