@@ -1,6 +1,6 @@
 # Interpretation and Analysis
 
-## Task 4: Established Rivalries (Derbies) and match results        
+## Task 4: Established Rivalries (Derbies) and match results         
 
 **Description**: Established Derby Rivalries between intra-city teams brings the best out of teams, and we would like to know 
 how well they play during their derby matches, non-derby matches and compare it with all other matches played by non-derby teams. 
