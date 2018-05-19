@@ -13,11 +13,9 @@ by the referee we would like to cluster the referees who were part of *more than
 
 **Inputs**: 
 
- Filter:  			Numberofmatches > 10
+ Filter:  Numberofmatches > 10
   
- Clustering based on the variables: 
-     
-                      		Continuous: AVGHOMEFOULS, AVGAWAYFOULS, AVGHOMEBP, AVGAWAYBP
+ Clustering based on the variables:- Continuous: AVGHOMEFOULS, AVGAWAYFOULS, AVGHOMEBP, AVGAWAYBP
 
 **Code used**:
 
@@ -42,7 +40,8 @@ Cluster 1 is close to cluster 2 and vice-versa.
 
 The characteristic of cluster means for each cluster are observed and we concluded that,
 
-•	Cluster 1 – Lenient referees 
+•	Cluster 1 – Lenient referees
+
 •	Cluster 2 – Harsh referees
 
 ![alt text](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Output%20Images/Task2-Img4.png)
