@@ -12,7 +12,7 @@ i.	Actual full-time results and B365 results are dependent.
 
 ii.	Observe the moderation effect of B365results on the relationship between Full-Time Goal Difference and Half-Time Goal Difference. 
 
-###Test i: Actual full-time results and B65 results are dependent. 
+**Test i: Actual full-time results and B65 results are dependent**
 
 **Null Hypothesis**: Variables are independent.  
 
@@ -50,3 +50,41 @@ From the Table analysis graph, we can see that:
 •	If the B365 result is Home win, the Home team winning match is high compared to Away team winning or match being draw. 
 
 ![alt text](https://github.com/mullapudirajaprashanth/Statistical-Analysis-EPL-data/blob/master/Output%20Images/Task5-Img3.png)
+
+**Test ii:	Observe the moderation effect of B365results on the relationship between Full-Time Goal Difference and Half-Time Goal Difference. **
+
+**Null Hypothesis**: There is no interaction effect.  
+
+**Alternate Hypothesis**: There is an interaction effect. 
+
+
+**Method Used**: Multi linear regression (since, the dependent variable is numerical continuous)
+
+**Inputs**: 
+
+ Dependent Variable:  FTGD (Full Time Goal Difference)
+  
+ Independent Variable:  Continuous: HTGD (Half Time Goal Difference) 
+		                      Categorical: B365result (H = Home, A = Away)
+
+**Interaction**: HTGD * B365
+
+**Output and Inferences**:
+
+•	From the ANOVA table, the value of F statistic is very high 603.22. The p value is <0.001 which is less than alpha. This implies model is significant. 
+
+•	54.32% of total variance of dependent variable is explained by the independent variables. 
+
+![alt text](https://github.com/mullapudirajaprashanth/Statistical-Analysis-EPL-data/blob/master/Output%20Images/Task5-Img4.png)
+
+**Conclusion**:
+
+From the parameter estimates table, the parameter estimates columns are the measure of change in Y, for one-unit change in X. 
+
+Considering the variables for which p is less than alpha, the significant variables are:
+
+HTGD, B365RESULTA. 
+
+However, HTGD * B365RESULTA is not a significant factor and that implies there is no interaction effect. 
+
+![alt text](https://github.com/mullapudirajaprashanth/Statistical-Analysis-EPL-data/blob/master/Output%20Images/Task5-Img5.png)
