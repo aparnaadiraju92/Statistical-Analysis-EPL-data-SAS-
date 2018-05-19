@@ -13,11 +13,11 @@ by the referee we would like to cluster the referees who were part of *more than
 
 **Inputs**: 
 
-  		**Filter**:  			Numberofmatches > 10
+ Filter:  			Numberofmatches > 10
   
- 		 **Clustering based on the variables**: 
+ Clustering based on the variables: 
      
-                            			Continuous: AVGHOMEFOULS, AVGAWAYFOULS, AVGHOMEBP, AVGAWAYBP
+                      		Continuous: AVGHOMEFOULS, AVGAWAYFOULS, AVGHOMEBP, AVGAWAYBP
 
 **Code used**:
 
