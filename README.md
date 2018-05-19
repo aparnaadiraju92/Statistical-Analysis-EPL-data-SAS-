@@ -38,6 +38,7 @@ The Key to variable names is available in the file named [Data Key](https://gith
 
 Our Analysis include several interesting tasks like: 
 
+•	Significant variables in predicting final match result: HTR, HST, AST, HC, AC, HR, AR [Interpretation](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Task%201%20Interpretation.md)                                     
 *1.	Identify the factors which will predict the Final match result. 
 
 *2.	Clustering the referees into Harsh referee and Lenient referee based on the Fouls committed by the teams and Booking Points given by the referee in the matches over the seasons. 
