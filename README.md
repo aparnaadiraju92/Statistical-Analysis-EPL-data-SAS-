@@ -63,3 +63,5 @@ From the analysis performed on the questions we set up at the start of the proje
 
 •	Average correlation between Position and Spending is -0.69
 
+The Analysis Interpretations with relevant screenshots are available in the link:
+https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Final%20Report
