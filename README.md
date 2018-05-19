@@ -22,19 +22,17 @@ The Dataset used for the performing the analysis is a comprehensive data set whi
 
 Initial source of Data - http://www.football-data.co.uk/englandm.php and http://www.footstats.co.uk/index.cfm?task=league_full
 
-The raw datasets are available in the [Initial Datasets] folder (https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/tree/master/Initial%20Datasets)
+The raw datasets are available in the named [Initial Datasets](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/tree/master/Initial%20Datasets)
 
 #### Data Exploration
 Apart from cleaning and normalizing the data we have performed feature engineering at several levels of data to make sure our analysis provides a valuable insight. (example feature: ‘Booking Points’ which is actually derived from valuating the  yellow, red cards and other fouls which in turn play a vital role in match result. This feature helps SAS to identify the significance and severity of an offence).
 
 The clean datasets used for analysis are readily provided in this repository.
-1. Match Level data for 4 seasons:
-   *https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/ProjectMatchleveldata_R.xlsx
+1. Match Level data for 4 seasons [here](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/ProjectMatchleveldata_R.xlsx)
    
-2. League Level data for 4 seasons:
-   *https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/ProjectLeagueleveldata.xlsx
+2. League Level data for 4 seasons [here](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/ProjectLeagueleveldata.xlsx)
 
-The Key to variable names is available in the Data Key file (https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Data%20Key)
+The Key to variable names is available in the file named [Data Key](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Data%20Key)
 
 ## Analysis tasks:
 
@@ -55,15 +53,14 @@ Our Analysis include several interesting tasks like:
 These analyses will help everyone to have a deeper insight on match level and league level statistics.
 
 ## SAS Codes ##
-The codes are available in the EPL codes file (https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/EPL%20codes.sas7bdat)
+The codes are available in the .md file [EPL codes](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/EPL%20codes.sas7bdat)
 
 ## Analysis - Interpretation - Conclusion:
 
 From the analysis performed on the questions we set up at the start of the project, following are the conclusions drawn from the analysis we have performed:
 
-•	Significant variables in predicting final match result: HTR, HST, AST, HC, AC, HR, AR 
-                                                                                                   (Task 1 Interpretation file)
-                       
+•	Significant variables in predicting final match result: HTR, HST, AST, HC, AC, HR, AR [Interpretation](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Task%201%20Interpretation.md)                                     
+
 •	Referees clustered to Lenient referee and Harsh referee
 
 •	Type of referee not a significant factor in predicting match result 
