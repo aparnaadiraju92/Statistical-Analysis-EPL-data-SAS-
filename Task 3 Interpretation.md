@@ -17,7 +17,9 @@
  Dependent Variable:  FTR (event = ‘H’)
   
  Independent Variable: 
+    
     > Categorical: HTR, Referee_Cluster
+    
     > Continuous: HST, AST, HC, AC, HR, AR
 
 **Code used**:
@@ -53,8 +55,11 @@ for Y = A (or) D with relative to Y = H for one-unit change in X.
 
 Considering the variables for which p is less than alpha, 
 The significant variables for log odds of dependent variable Y = A relative to Y = H are: 
+    
     > HTR, HST, AST, HC, AC, HR, AR
+
 The significant variables for log odds of dependent variable Y = D relative to Y = H are: 
+    
     > HTR, HST, AST, HC, AC, AR
 
 The Referee_cluster is not a significant factor in predicting the Final result of match as the value of p is greater than alpha.
