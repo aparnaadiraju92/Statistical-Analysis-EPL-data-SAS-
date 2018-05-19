@@ -9,9 +9,12 @@
 
 **Alternate Hypothesis**: We expect at least one factor to play a role in predicting the Final match result. 
 
+
 **Method used**: Multi nominal logistic regression (since, dependent variable is categorical with 3 categories)
 
+
 **Inputs**: 
+
   **Dependent variables**:  FTR (event = ‘H’)
   
   **Independent variable**: 
@@ -19,6 +22,7 @@
                             Continuous: HS, AS, HST, AST, HC, AC, HF, AF, HY, AY, HR, AR
 
 Code used:
+
 Since, SAS does not allow us to perform **Multi-Nominal Logistic Regression**  test by default, we have written a SAS code by customizing the existing Binary Logistic Regression Code. 
 
 ![alt text](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Output%20Images/Task1-Img1.png)
