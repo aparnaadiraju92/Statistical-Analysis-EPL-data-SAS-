@@ -22,7 +22,7 @@ The Dataset used for the performing the analysis is a comprehensive data set whi
 
 Initial source of Data - http://www.football-data.co.uk/englandm.php and http://www.footstats.co.uk/index.cfm?task=league_full
 
-The raw datasets are available : https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/tree/master/Initial%20Datasets
+The raw datasets are available in the [Initial Datasets] folder (https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/tree/master/Initial%20Datasets)
 
 #### Data Exploration
 Apart from cleaning and normalizing the data we have performed feature engineering at several levels of data to make sure our analysis provides a valuable insight. (example feature: ‘Booking Points’ which is actually derived from valuating the  yellow, red cards and other fouls which in turn play a vital role in match result. This feature helps SAS to identify the significance and severity of an offence).
