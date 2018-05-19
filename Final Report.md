@@ -36,3 +36,23 @@ Output and Inferences:
 •	The reference category to be considered is FTR = ‘H’ 
 
 ![alt text](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Output%20Images/Task1-Img3.png)
+
+•	The -2 Log L value of fitted model (2201.339) is less than the value of -2 Log L value for Null model (3227.332). The fitted model is considered to be better. 
+
+•	55.75% of variance of dependent variables is explained by the independent variables taken.
+
+•	As the p value (<0.001) from the likelihood ratio is less than alpha, Model is significant and at least one factor is playing a role in predicting the Final match result. 
+
+•	From the Maximum Likelihood estimates table, the parameter estimates columns in this table is the measure of log odds for Y = A (or) D with relative to Y = H for one-unit change in X. 
+
+![alt text](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Output%20Images/Task1-Img4.png)
+
+Conclusion:
+
+Considering the variables for which p is less than alpha, 
+The significant variables for log odds of dependent variable Y = A relative to Y = H are: 
+                                                                                          HTR, HST, AST, HC, AC, HR, AR
+The significant variables for log odds of dependent variable Y = D relative to Y = H are: 
+                                                                                          HTR, HST, AST, HC, AC, AR
+
+![alt text](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Output%20Images/Task1-Img5.png)
