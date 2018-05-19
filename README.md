@@ -31,11 +31,35 @@ Apart from cleaning and normalizing the data we have performed feature engineeri
 
 Our Analysis include several interesting tasks like: 
 
-*1.	Identify the factors which will predict the Final match result.  
+*1.	Identify the factors which will predict the Final match result. 
+
 *2.	Clustering the referees into Harsh referee and Lenient referee based on the Fouls committed by the teams and Booking Points given by the referee in the matches over the seasons. 
+
 *3.	Does the type of Referee (clustered in the above task) play a role in predicting the Final match result? 
+
 *4.	Analyze if Full Time match result and type of match are dependent. Identifying the established sport rivalries and analyzing results from the derby matches and the matches played by the derby teams against other teams as Home and as Away.  
+
 *5.	Analyzing if Betting result and Full-Time match result are dependent. Observe if there is any moderation effect on the relationship between Full-Time Goal Difference and Half-Time Goal Difference. 
+
 *6.	Identifying how the Spending (i.e., Player wages) by each team impact Table standings each season. Does a team that spends more money on its players end up qualifying for Champions League i.e., being in the top 4 teams list on the league table?
 
-These analyses will help everyone to have a deeper insight on match level and league level statistics. 
+These analyses will help everyone to have a deeper insight on match level and league level statistics.
+
+## Conclusion:
+
+From the analysis performed on the questions we set up at the start of the project, following are the conclusions drawn from the analysis we have performed:
+
+•	Significant variables in predicting final match result: HTR, HST, AST, HC, AC, HR, AR
+
+•	Referees clustered to Lenient referee and Harsh referee
+
+•	Type of referee not a significant factor in predicting match result 
+
+•	Derby teams have less chance in losing match at Home
+
+•	Betting odds favorable to Home team win
+
+•	Half Time Goal Difference and Betting results significant in determining Full Time Goal Difference 
+
+•	Average correlation between Position and Spending is -0.69
+
