@@ -61,9 +61,9 @@ The codes are available in the EPL codes file (https://github.com/aparnaadiraju9
 
 From the analysis performed on the questions we set up at the start of the project, following are the conclusions drawn from the analysis we have performed:
 
-•	Significant variables in predicting final match result: HTR, HST, AST, HC, AC, HR, AR
-                       (https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Task%201%20Interpretation.md)
-
+•	Significant variables in predicting final match result: HTR, HST, AST, HC, AC, HR, AR 
+                                                                                                   (Task 1 Interpretation file)
+                       
 •	Referees clustered to Lenient referee and Harsh referee
 
 •	Type of referee not a significant factor in predicting match result 
