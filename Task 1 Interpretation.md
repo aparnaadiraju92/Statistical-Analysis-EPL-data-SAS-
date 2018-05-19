@@ -1,7 +1,6 @@
-# Final Report
-## Interpretation and Analysis
+# Interpretation and Analysis
 
-### Task 1: Identify the factors which will predict the Final match result.
+## Task 1: Identify the factors which will predict the Final match result.
 
 **Description**: Each and every factor recorded in our Match level data set at some point would have helped in changing the match result. Through this question, we want to observe what factors predict the Final match result when all these are considered together. 
 
