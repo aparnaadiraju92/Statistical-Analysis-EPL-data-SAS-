@@ -51,7 +51,7 @@ From the Table analysis graph, we can see that:
 
 ![alt text](https://github.com/mullapudirajaprashanth/Statistical-Analysis-EPL-data/blob/master/Output%20Images/Task5-Img3.png)
 
-**Test ii:	Observe the moderation effect of B365results on the relationship between Full-Time Goal Difference and Half-Time Goal Difference. **
+**Test ii:Observe the moderation effect of B365results on relationship b/w Full-Time Goal Difference and Half-Time Goal Difference.**
 
 **Null Hypothesis**: There is no interaction effect.  
 
@@ -65,7 +65,7 @@ From the Table analysis graph, we can see that:
  Dependent Variable:  FTGD (Full Time Goal Difference)
   
  Independent Variable:  Continuous: HTGD (Half Time Goal Difference) 
-		                      Categorical: B365result (H = Home, A = Away)
+		        Categorical: B365result (H = Home, A = Away)
 
 **Interaction**: HTGD * B365
 
@@ -81,9 +81,7 @@ From the Table analysis graph, we can see that:
 
 From the parameter estimates table, the parameter estimates columns are the measure of change in Y, for one-unit change in X. 
 
-Considering the variables for which p is less than alpha, the significant variables are:
-
-HTGD, B365RESULTA. 
+Considering the variables for which p is less than alpha, the significant variables are:  **HTGD, B365RESULTA** 
 
 However, HTGD * B365RESULTA is not a significant factor and that implies there is no interaction effect. 
 
