@@ -1,5 +1,3 @@
-
-
 /* ---------------------- Task 1 ------------------------ */
 
 /*We perform Multi nominal Logistic Regression*/
@@ -17,19 +15,14 @@ run;
 /*Firstly, we summarized the data of referees into a new table*/
 
 PROC SQL;
-  
 	CREATE TABLE APLIB.AREFEREEMATCH AS 
-	
 	SELECT REFEREE, COUNT(REFEREE) AS NUMBEROFMATCHES, 
                SUM(ABP) AS TOTAWAYBP, SUM(HBP) AS TOTHOMEBP, (SUM(ABP) + SUM(HBP)) AS TOTBP,
                SUM(AF) AS TOTALAWAYFOULS, SUM(HF) AS TOTALHOMEFOULS, (SUM(HF)+SUM(AF)) AS TOTALFOULS,
                ROUND(AVG(ABP)) AS AVGAWAYBP, ROUND(AVG(HBP)) AS AVGHOMEBP, (ROUND(AVG(HBP)) + ROUND(AVG(ABP))) AS TOTAVGBP, 
 	       ROUND(AVG(HF)) AS AVGHOMEFOULS, ROUND(AVG(AF)) AS AVGAWAYFOULS, (ROUND(AVG(HF)) + ROUND(AVG(AF))) AS AVGTOTFOULS
-	
 	FROM APLIB.PROJECTMATCHLEVEL
-	
 	WHERE REFEREE IS NOT NULL
-	
 	GROUP BY REFEREE;
 
 QUIT;
