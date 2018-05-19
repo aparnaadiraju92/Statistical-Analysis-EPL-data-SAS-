@@ -27,7 +27,7 @@ Since, SAS does not allow us to perform **Multi-Nominal Logistic Regression**  t
 
 ![alt text](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Output%20Images/Task1-Img1.png)
 
-Output and Inferences:
+**Output and Inferences**:
 
 •	The generalized logit model and Newton-Raphson optimization technique are considered in a Multi-nominal logistic regression. 
 
@@ -47,9 +47,10 @@ Output and Inferences:
 
 ![alt text](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Output%20Images/Task1-Img4.png)
 
-Conclusion:
+**Conclusion**:
 
 Considering the variables for which p is less than alpha, 
+
 The significant variables for log odds of dependent variable Y = A relative to Y = H are: 
                                                                                           HTR, HST, AST, HC, AC, HR, AR
 The significant variables for log odds of dependent variable Y = D relative to Y = H are: 
