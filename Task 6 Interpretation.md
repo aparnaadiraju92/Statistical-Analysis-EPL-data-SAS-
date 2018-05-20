@@ -37,10 +37,11 @@ Leicester stood in position 1 for the year 2015 – 2016 although its spending w
 ![alt text](https://github.com/mullapudirajaprashanth/Statistical-Analysis-EPL-data/blob/master/Output%20Images/Task6-Img3.png)
 
 The above and below Tableau visualization we would like to use to better analyze the Defense and Attach respectively of the 10 top teams for 2015 – 2016. 
+
+![alt text](https://github.com/mullapudirajaprashanth/Statistical-Analysis-EPL-data/blob/master/Output%20Images/Task6-Img4.png)
   
   i.	Although the defense rate and keeper save accuracy for Man United is better when compared to Leicester, it is in the Attacking where Man United lacks. 
 
   ii.	The Man United’s attack especially their ability to shoot accurately i.e. shot accuracy is the scope of improvement and is a critical factor in them winning the match. 
 
-![alt text](https://github.com/mullapudirajaprashanth/Statistical-Analysis-EPL-data/blob/master/Output%20Images/Task6-Img4.png)
 
