@@ -1,5 +1,5 @@
 # Statistical-Analysis-EPL-data
-  We will be using Excel, SAS (University Edition) and Tableau for this analysis. 
+  We will be using SAS (University Edition), Excel, and Tableau for this analysis. 
 
 ## INTRODUCTION
 
@@ -42,19 +42,19 @@ The analyses will help everyone to have a deeper insight on match level and leag
 Identify the factors which will predict the Final match result. [Interpretation](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Task%201%20Interpretation.md)
 
 #### 2. ####
-Clustering the referees into Harsh referee and Lenient referee based on the Fouls committed by the teams and Booking Points given by the referee in the matches over the seasons. [Interpretation]
+Clustering the referees into Harsh referee and Lenient referee based on the Fouls committed by the teams and Booking Points given by the referee in the matches over the seasons. [Interpretation](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Task%202%20Interpretation.md)
 
 #### 3. ####
-Does the type of Referee (clustered in the above task) play a role in predicting the Final match result? 
+Does the type of Referee (clustered in the above task) play a role in predicting the Final match result? [Interpretation](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Task%203%20Interpretation.md)
 
 #### 4. ####
-Analyze if Full Time match result and type of match are dependent. Identifying the established sport rivalries and analyzing results from the derby matches and the matches played by the derby teams against other teams as Home and as Away.  
+Analyze if Full Time match result and type of match are dependent. Identifying the established sport rivalries and analyzing results from the derby matches and the matches played by the derby teams against other teams as Home and as Away.  [Interpretation](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Task%204%20Interpretation.md)
 
 #### 5. ####
-Analyzing if Betting result and Full-Time match result are dependent. Observe if there is any moderation effect on the relationship between Full-Time Goal Difference and Half-Time Goal Difference. 
+Analyzing if Betting result and Full-Time match result are dependent. Observe if there is any moderation effect on the relationship between Full-Time Goal Difference and Half-Time Goal Difference. [Interpretation](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Task%205%20Interpretation.md)
 
 #### 6. ####
-Identifying how the Spending (i.e., Player wages) by each team impact Table standings each season. Does a team that spends more money on its players end up qualifying for Champions League i.e., being in the top 4 teams list on the league table?
+Identifying how the Spending (i.e., Player wages) by each team impact Table standings each season. Does a team that spends more money on its players end up qualifying for Champions League i.e., being in the top 4 teams list on the league table? [Interpretation](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Task%206%20Interpretation.md)
 
 
 ## Analysis - Interpretation - Conclusion:
@@ -63,17 +63,17 @@ From the analysis performed on the questions we set up at the start of the proje
 
 •	Significant variables in predicting final match result: HTR, HST, AST, HC, AC, HR, AR [Interpretation](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Task%201%20Interpretation.md)                                     
 
-•	Referees clustered to Lenient referee and Harsh referee
+•	Referees clustered to Lenient referee and Harsh referee [Interpretation](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Task%202%20Interpretation.md)
 
-•	Type of referee not a significant factor in predicting match result 
+•	Type of referee not a significant factor in predicting match result [Interpretation](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Task%203%20Interpretation.md)
 
-•	Derby teams have less chance in losing match at Home
+•	Derby teams have less chance in losing match at Home [Interpretation](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Task%204%20Interpretation.md)
 
-•	Betting odds favorable to Home team win
+•	Betting odds favorable to Home team win [Interpretation](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Task%205%20Interpretation.md)
 
-•	Half Time Goal Difference and Betting results significant in determining Full Time Goal Difference 
+•	Half Time Goal Difference and Betting results significant in determining Full Time Goal Difference [Interpretation](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Task%205%20Interpretation.md)
 
-•	Average correlation between Position and Spending is -0.69
+•	Average correlation between Position and Spending is -0.70 [Interpretation](https://github.com/aparnaadiraju92/Statistical-Analysis-EPL-data/blob/master/Task%206%20Interpretation.md)
 
 
 ## SAS Codes ##
