@@ -1,4 +1,4 @@
-# Statistical-Analysis-EPL-data
+# Statistical Analysis on EPL data
   We will be using SAS (University Edition), Excel, and Tableau for this analysis. 
 
 ## INTRODUCTION
